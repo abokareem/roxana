@@ -21,7 +21,7 @@ $text['language-name']['ru-ru'] = "Русский - Россия";
 $text['language-name']['sv-se'] = "Svenska - Sverige";
 $text['language-name']['uk-ua'] = "Українська - Україна";
 $text['language-name']['tr-tr'] = "Türkçe - Türkiye";
-$text['language-name']['fa-ir'] = "فارسی - ایران";
+$text['language-name']['fa'] = "فارسی - ایران";
 
 $text['language-en-us']['en-us'] = "English - United States";
 $text['language-ar-eg']['en-us'] = "العربية - مصر";
@@ -43,7 +43,7 @@ $text['language-ru-ru']['en-us'] = "Русский - Россия";
 $text['language-sv-se']['en-us'] = "Svenska - Sverige";
 $text['language-uk-ua']['en-us'] = "Українська - Україна";
 $text['language-tr-tr']['tr-tr'] = "Türkçe - Türkiye";
-$text['language-fa-ir']['en-us'] = "فارسی - ایران";
+$text['language-fa']['en-us'] = "فارسی - ایران";
 
 $text['message-update']['en-us'] = "Update Completed";
 $text['message-update']['ar-eg'] = "تحديث مكتمل";
@@ -232,7 +232,7 @@ $text['message-invalid_credentials']['ru-ru'] = "Неверное имя пол�
 $text['message-invalid_credentials']['sv-se'] = "";
 $text['message-invalid_credentials']['uk-ua'] = "";
 $text['message-invalid_credentials']['tr-tr'] = "Geçersiz Kullanıcı Adı ve/veya Parola";
-$text['message-invalid_credentials']['fa-ir'] = "نام کابری و رمز عبور اشتباه است!";
+$text['message-invalid_credentials']['fa'] = "نام کابری و رمز عبور اشتباه است!";
 
 $text['message-invalid_token']['en-us'] = "Invalid Token";
 $text['message-invalid_token']['ar-eg'] = "Invalid Token";
