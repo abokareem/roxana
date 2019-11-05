@@ -65,6 +65,7 @@ $text['message-update']['ru-ru'] = "Обновление завершено";
 $text['message-update']['sv-se'] = "Uppdatering Klar";
 $text['message-update']['uk-ua'] = "Оновлення завершено";
 $text['message-update']['tr-tr'] = "Güncelleme Tamamlandı";
+$text['message-update']['fa'] = "به روز رسانی تکمیل شد";
 
 $text['message-required']['en-us'] = "Please provide: ";
 $text['message-required']['ar-eg'] = "يرجى تقديم:";
@@ -86,6 +87,7 @@ $text['message-required']['ru-ru'] = "Пожалуйста, укажите: ";
 $text['message-required']['sv-se'] = "Var god uppge:";
 $text['message-required']['uk-ua'] = "Будь ласка, вкажіть:";
 $text['message-required']['tr-tr'] = "Lütfen temin edin: ";
+$text['message-required']['fa'] = "لطفا ارائه دهید : ";
 
 $text['message-delete']['en-us'] = "Delete Completed";
 $text['message-delete']['ar-eg'] = "تم المسح";
@@ -107,6 +109,7 @@ $text['message-delete']['ru-ru'] = "Удаление выполнено";
 $text['message-delete']['sv-se'] = "Borttagning Klar";
 $text['message-delete']['uk-ua'] = "Видалено";
 $text['message-delete']['tr-tr'] = "Silme İşlemi Tamamlandı";
+$text['message-delete']['fa'] = "حذف شد";
 
 $text['message-delete_failed']['en-us'] = "Delete Failed";
 $text['message-delete_failed']['ar-eg'] = "";
@@ -128,6 +131,7 @@ $text['message-delete_failed']['ru-ru'] = "Ошибка удаления";
 $text['message-delete_failed']['sv-se'] = "Borttagning Misslyckades";
 $text['message-delete_failed']['uk-ua'] = "";
 $text['message-delete_failed']['tr-tr'] = "Silme İşlemi Başarısız Oldu";
+$text['message-delete_failed']['fa'] = "حذف ناموفق بود";
 
 $text['message-add']['en-us'] = "Add Completed";
 $text['message-add']['ar-eg'] = "تمت الأضافة";
@@ -149,6 +153,7 @@ $text['message-add']['ru-ru'] = "Добавление выполнено";
 $text['message-add']['sv-se'] = "Tillagd";
 $text['message-add']['uk-ua'] = "Додано";
 $text['message-add']['tr-tr'] = "Ekleme İşlemi Tamamlandı";
+$text['message-add']['fa'] = "اضافه شد.";
 
 $text['message-failed']['en-us'] = "Update Failed - Contact Support";
 $text['message-failed']['ar-eg'] = "";
@@ -170,6 +175,7 @@ $text['message-failed']['ru-ru'] = "Обновление не удалось - �
 $text['message-failed']['sv-se'] = "Uppdatering Misslyckades - Kontakta Support";
 $text['message-failed']['uk-ua'] = "";
 $text['message-failed']['tr-tr'] = "Ekleme İşlemi Başarısız Oldu - Destek Ekibine Ulaşın";
+$text['message-failed']['fa'] = "به روز رسانی دچار خطا شد. با پشتیبانی تماس بگیرید.";
 
 $text['message-copy']['en-us'] = "Copy Completed";
 $text['message-copy']['ar-eg'] = "";
@@ -191,6 +197,7 @@ $text['message-copy']['ru-ru'] = "Копирование выполнено";
 $text['message-copy']['sv-se'] = "Kopiering Slutförd";
 $text['message-copy']['uk-ua'] = "Скопійовано";
 $text['message-copy']['tr-tr'] = "Kopyalama İşlemi Tamamlandı";
+$text['message-copy']['fa'] = "کپی انجام شد.";
 
 $text['message-toggle']['en-us'] = "Toggle Completed";
 $text['message-toggle']['ar-eg'] = "الانتهاء من تبديل";

@@ -21,6 +21,7 @@ $text['theme-label-logout']['ru-ru'] = "Выйти";
 $text['theme-label-logout']['sv-se'] = "Logga Ut";
 $text['theme-label-logout']['uk-ua'] = "вийти";
 $text['theme-label-logout']['tr-tr'] = "Oturumu Kapat";
+$text['theme-label-logout']['fa'] = "خروج";
 
 $text['theme-confirm-logout']['en-us'] = "Do you really want to logout?";
 $text['theme-confirm-logout']['ar-eg'] = "";
@@ -42,6 +43,7 @@ $text['theme-confirm-logout']['ru-ru'] = "Вы действительно хот
 $text['theme-confirm-logout']['sv-se'] = "Vill du verkligen vill logga ut?";
 $text['theme-confirm-logout']['uk-ua'] = "Ви дійсно хочете вийти?";
 $text['theme-confirm-logout']['tr-tr'] = "Çıkmak istediğinize emin misiniz?";
+$text['theme-confirm-logout']['fa'] = "آیاد قصد خروج دارید؟";
 
 $text['theme-label-open_selector']['en-us'] = "Domain Selector [ESC]";
 $text['theme-label-open_selector']['ar-eg'] = "";
@@ -63,6 +65,7 @@ $text['theme-label-open_selector']['ru-ru'] = "Выбор домена [ESC]";
 $text['theme-label-open_selector']['sv-se'] = "Välj en domän";
 $text['theme-label-open_selector']['uk-ua'] = "Виберіть домен";
 $text['theme-label-open_selector']['tr-tr'] = "Domain Seçici [ESC]";
+$text['theme-label-open_selector']['fa'] = "انتخابگر دامین";
 
 $text['theme-title-domains']['en-us'] = "Domains";
 $text['theme-title-domains']['ar-eg'] = "";
@@ -84,6 +87,7 @@ $text['theme-title-domains']['ru-ru'] = "Домены";
 $text['theme-title-domains']['sv-se'] = "Domäner";
 $text['theme-title-domains']['uk-ua'] = "Домени";
 $text['theme-title-domains']['tr-tr'] = "Alan Adları";
+$text['theme-title-domains']['fa'] = "دامنه ها";
 
 $text['theme-button-close']['en-us'] = "Close";
 $text['theme-button-close']['ar-eg'] = "";
@@ -105,6 +109,7 @@ $text['theme-button-close']['ru-ru'] = "Закрыть";
 $text['theme-button-close']['sv-se'] = "Stänga";
 $text['theme-button-close']['uk-ua'] = "Близько";
 $text['theme-button-close']['tr-tr'] = "Kapat";
+$text['theme-button-close']['fa'] = "بستن";
 
 $text['theme-label-search']['en-us'] = "Search...";
 $text['theme-label-search']['ar-eg'] = "";
@@ -126,6 +131,7 @@ $text['theme-label-search']['ru-ru'] = "Поиск...";
 $text['theme-label-search']['sv-se'] = "Sök...";
 $text['theme-label-search']['uk-ua'] = "Пошук...";
 $text['theme-label-search']['tr-tr'] = "Arama...";
+$text['theme-label-search']['fa'] = "جستجو...";
 
 $text['theme-label-copyright']['en-us'] = "Copyright";
 $text['theme-label-copyright']['ar-eg'] = "";
@@ -147,6 +153,8 @@ $text['theme-label-copyright']['ru-ru'] = "Авторские права";
 $text['theme-label-copyright']['sv-se'] = "Copyright";
 $text['theme-label-copyright']['uk-ua'] = "";
 $text['theme-label-copyright']['tr-tr'] = "Copyright";
+$text['theme-label-copyright']['fa'] = "گپی رایت";
+
 
 $text['theme-label-all_rights_reserved']['en-us'] = "All rights reserved.";
 $text['theme-label-all_rights_reserved']['ar-eg'] = "";
@@ -168,6 +176,7 @@ $text['theme-label-all_rights_reserved']['ru-ru'] = "Все права защи�
 $text['theme-label-all_rights_reserved']['sv-se'] = "All rights reserved.";
 $text['theme-label-all_rights_reserved']['uk-ua'] = "";
 $text['theme-label-all_rights_reserved']['tr-tr'] = "Tüm hakları saklıdır.";
+$text['theme-label-all_rights_reserved']['fa'] = "تمامی حقوق محفوظ است.";
 
 $text['theme-label-user']['en-us'] = "User";
 $text['theme-label-user']['ar-eg'] = "";
@@ -189,6 +198,7 @@ $text['theme-label-user']['ru-ru'] = "Пользователь";
 $text['theme-label-user']['sv-se'] = "Användare";
 $text['theme-label-user']['uk-ua'] = "Користувачі";
 $text['theme-label-user']['tr-tr'] = "Користувачі";
+$text['theme-label-user']['fa'] = "کاربر";
 
 $text['theme-label-domain']['en-us'] = "Domain";
 $text['theme-label-domain']['ar-eg'] = "النطاق";
@@ -210,5 +220,6 @@ $text['theme-label-domain']['ru-ru'] = "Домен";
 $text['theme-label-domain']['sv-se'] = "Domän";
 $text['theme-label-domain']['uk-ua'] = "Домен";
 $text['theme-label-domain']['tr-tr'] = "Alan Adı";
+$text['theme-label-domain']['fa'] = "دامنه";
 
 ?>

@@ -100,6 +100,7 @@ $text['title-dialplans']['ro-ro'] = "";
 $text['title-dialplans']['ru-ru'] = "План Нумерации";
 $text['title-dialplans']['sv-se'] = "Nummerplan";
 $text['title-dialplans']['uk-ua'] = "Маршрутизація";
+$text['title-dialplans']['fa'] = "دایل پلن";
 
 $text['title-default_dialplan']['en-us'] = "Default Dialplan";
 $text['title-default_dialplan']['ar-eg'] = "";
