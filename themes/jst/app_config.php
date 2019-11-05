@@ -1,14 +1,14 @@
 <?php
 
 	//application details
-		$apps[$x]['name'] = "Default Theme";
+		$apps[$x]['name'] = "JST";
 		$apps[$x]['uuid'] = "3a6e3ad5-c7e2-4bdc-9c89-e10047efb953";
 		$apps[$x]['category'] = "Theme";
 		$apps[$x]['subcategory'] = "";
 		$apps[$x]['version'] = "1.0";
 		$apps[$x]['license'] = "Mozilla Public License 1.1";
 		$apps[$x]['url'] = "http://www.fusionpbx.com";
-		$apps[$x]['description']['en-us'] = "Default theme";
+		$apps[$x]['description']['en-us'] = "JST theme";
 		$apps[$x]['description']['ar-eg'] = "";
 		$apps[$x]['description']['de-at'] = "Standard Theme";
 		$apps[$x]['description']['de-ch'] = "";
