@@ -617,7 +617,7 @@ if (!$default_login) {
 						$menu_brand_link = '/';
 					}
 				//define menu brand mark
-					$menu_brand_text = ($_SESSION['theme']['menu_brand_text']['text'] != '') ? escape($_SESSION['theme']['menu_brand_text']['text']) : "FusionPBX";
+					$menu_brand_text = ($_SESSION['theme']['menu_brand_text']['text'] != '') ? escape($_SESSION['theme']['menu_brand_text']['text']) : "JST Voip";
 					switch ($_SESSION['theme']['menu_brand_type']['text']) {
 						case 'text':
 							echo "			<a class='navbar-brand-text'  href=\"".$menu_brand_link."\">".$menu_brand_text."</a>\n";
@@ -798,7 +798,7 @@ if (!$default_login) {
 						//show the menu brand image and/or text
 							$menu_brand_image_contracted =  $_SESSION['theme']['menu_side_brand_image_contracted']['text'] != '' ? $_SESSION['theme']['menu_side_brand_image_contracted']['text'] : PROJECT_PATH."/themes/default/images/logo_side_contracted.png";
 							$menu_brand_image_expanded =  $_SESSION['theme']['menu_side_brand_image_expanded']['text'] != '' ? $_SESSION['theme']['menu_side_brand_image_expanded']['text'] : PROJECT_PATH."/themes/default/images/logo_side_expanded.png";
-							$menu_brand_text = ($_SESSION['theme']['menu_brand_text']['text'] != '') ? escape($_SESSION['theme']['menu_brand_text']['text']) : "FusionPBX";
+							$menu_brand_text = ($_SESSION['theme']['menu_brand_text']['text'] != '') ? escape($_SESSION['theme']['menu_brand_text']['text']) : "JST VOIP";
 							if ($_SESSION['theme']['menu_brand_type']['text'] == 'image' || $_SESSION['theme']['menu_brand_type']['text'] == '') {
 								echo "		<a href='".$menu_brand_link."' style='text-decoration: none;'>";
 								echo 			"<img id='menu_brand_image_contracted' style='width: 20px; margin-left: -2px; margin-top: -5px;' src='".escape($menu_brand_image_contracted)."' title=\"".escape($menu_brand_text)."\">";
@@ -872,7 +872,7 @@ if (!$default_login) {
 		echo "	<!--{body}-->\n";
 		echo "</div>\n";
 		echo "<div id='footer'>\n";
-		echo "	<span class='footer'>".($_SESSION['theme']['footer']['text'] != '' ? $_SESSION['theme']['footer']['text'] : "&copy; ".$text['theme-label-copyright']." 2008 - ".date("Y")." <a href='http://www.fusionpbx.com' class='footer' target='_blank'>fusionpbx.com</a> ".$text['theme-label-all_rights_reserved'])."</span>\n";
+		echo "	<span class='footer'>".($_SESSION['theme']['footer']['text'] != '' ? $_SESSION['theme']['footer']['text'] : "&copy; ".$text['theme-label-copyright']." 2019 - ".date("Y")." <a href='http://www.janstun.com' class='footer' target='_blank'>جانستون</a> ".$text['theme-label-all_rights_reserved'])."</span>\n";
 		echo "</div>\n";
 
 		echo "</div>\n"; //initial div from switch statement above
