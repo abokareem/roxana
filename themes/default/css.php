@@ -173,6 +173,7 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 		}
 
 	body {
+        direction: rtl;
 		z-index: 1;
 		position: absolute;
 		margin: 0;
