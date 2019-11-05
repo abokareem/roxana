@@ -167,6 +167,7 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 ?>
 
 	html {
+        direction: rtl;
 		height: 100%;
 		width: 100%;
 		}
