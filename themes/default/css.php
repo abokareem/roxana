@@ -451,7 +451,7 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 		z-index: 99900;
 		position: fixed;
 		top: 0;
-		left: 0;
+		right: 0;
 		width: <?php echo is_numeric($_SESSION['theme']['menu_side_width_contracted']['text']) ? $_SESSION['theme']['menu_side_width_contracted']['text'] : '60'; ?>px;
 		height: 100%;
 		overflow: auto;
