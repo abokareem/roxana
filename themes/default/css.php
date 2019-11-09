@@ -374,7 +374,7 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 		}
 
 	a.nav-link {
-		text-align: left !important;
+		text-align: right !important;
 		}
 
 	/* sub menu item icon */
@@ -484,7 +484,7 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 		top: 0;
 		padding: 20px;
 		min-height: 75px;
-		text-align: left;
+		text-align: right;
 		<?php if ($_SESSION['theme']['menu_main_background_image']['text'] != '') { ?>
 			background-image: url("<?php echo $_SESSION['theme']['menu_main_background_image']['text']; ?>");
 			background-position: 0px 0px;
@@ -539,7 +539,7 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 		display: block;
 		width: 100%;
 		padding: 10px 20px;
-		text-align: left;
+		text-align: right;
 		font-family: <?php echo ($_SESSION['theme']['menu_main_text_font']['text'] != '') ? $_SESSION['theme']['menu_main_text_font']['text'] : 'arial'; ?>;
 		font-size: <?php echo ($_SESSION['theme']['menu_main_text_size']['text'] != '') ? $_SESSION['theme']['menu_main_text_size']['text'] : '10.25pt'; ?>;
 		color: <?php echo ($_SESSION['theme']['menu_main_text_color']['text'] != '') ? $_SESSION['theme']['menu_main_text_color']['text'] : '#fff'; ?>;
@@ -564,7 +564,7 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 		display: block;
 		width: 100%;
 		padding: 5px 20px 5px 45px;
-		text-align: left;
+		text-align: right;
 		background: <?php echo ($_SESSION['theme']['menu_sub_background_color']['text'] != '') ? $_SESSION['theme']['menu_sub_background_color']['text'] : 'rgba(0,0,0,0.90)'; ?>;
 		font-family: <?php echo ($_SESSION['theme']['menu_sub_text_font']['text'] != '') ? $_SESSION['theme']['menu_sub_text_font']['text'] : 'arial'; ?>;
 		font-size: <?php echo ($_SESSION['theme']['menu_sub_text_size']['text'] != '') ? $_SESSION['theme']['menu_sub_text_size']['text'] : '10pt'; ?>;
@@ -820,7 +820,7 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 		width: 300px;
 		height: 55px;
 		margin-bottom: 20px;
-		text-align: left;
+		text-align: right;
 		}
 
 	#domains_list {
@@ -834,7 +834,7 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 		}
 
 	div.domains_list_item, div.domains_list_item_active, div.domains_list_item_inactive {
-		text-align: left;
+		text-align: right;
 		border-bottom: 1px solid #c5d1e5;
 		padding: 5px 8px 8px 8px;
 		overflow: hidden;
@@ -975,7 +975,7 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 		}
 		echo $body_top_style;
 		?>
-		text-align: left;
+		text-align: right;
 		color: <?php echo ($_SESSION['theme']['body_text_color']['text'] != '') ? $_SESSION['theme']['body_text_color']['text'] : '#5f5f5f'; ?>;
 		font-size: <?php echo ($_SESSION['theme']['body_text_size']['text'] != '') ? $_SESSION['theme']['body_text_size']['text'] : '12px'; ?>;
 		font-family: <?php echo ($_SESSION['theme']['body_text_font']['text'] != '') ? $_SESSION['theme']['body_text_font']['text'] : 'arial'; ?>;
@@ -1078,7 +1078,7 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 		font-family: <?php echo ($_SESSION['theme']['input_text_font']['text'] != '') ? $_SESSION['theme']['input_text_font']['text'] : 'Arial'; ?>;
 		font-size: <?php echo ($_SESSION['theme']['input_text_size']['text'] != '') ? $_SESSION['theme']['input_text_size']['text'] : '12px'; ?>;
 		color: <?php echo ($_SESSION['theme']['input_text_color']['text'] != '') ? $_SESSION['theme']['input_text_color']['text'] : '#000000'; ?>;
-		text-align: left;
+		text-align: right;
 		height: 28px;
 		padding: 4px 6px;
 		margin: 1px;
@@ -1400,7 +1400,7 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 	th {
 		padding: 4px 7px 4px 0;
 		padding: 4px 7px;
-		text-align: left;
+		text-align: right;
 		color: <?php echo ($_SESSION['theme']['table_heading_text_color']['text'] != '') ? $_SESSION['theme']['table_heading_text_color']['text'] : '#3164ad'; ?>;
 		font-size: <?php echo ($_SESSION['theme']['table_heading_text_size']['text'] != '') ? $_SESSION['theme']['table_heading_text_size']['text'] : '12px'; ?>;
 		font-family: <?php echo ($_SESSION['theme']['table_heading_text_font']['text'] != '') ? $_SESSION['theme']['table_heading_text_font']['text'] : 'arial'; ?>;
@@ -1509,7 +1509,7 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 		<?php unset($br); ?>
 		border-bottom: 1px solid <?php echo ($_SESSION['theme']['form_table_field_border_color']['text'] != '') ? $_SESSION['theme']['form_table_field_border_color']['text'] : '#e5e9f0'; ?>;
 		padding: <?php echo ($_SESSION['theme']['form_table_field_padding']['text'] != '') ? $_SESSION['theme']['form_table_field_padding']['text'] : '6px'; ?>;
-		text-align: left;
+		text-align: right;
 		vertical-align: middle;
 		color: <?php echo ($_SESSION['theme']['form_table_field_text_color']['text'] != '') ? $_SESSION['theme']['form_table_field_text_color']['text'] : '#666666'; ?>;
 		font-family: <?php echo ($_SESSION['theme']['form_table_field_text_font']['text'] != '') ? $_SESSION['theme']['form_table_field_text_font']['text'] : 'Arial'; ?>;
@@ -1527,7 +1527,7 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 		<?php unset($br); ?>
 		border-bottom: 3px solid <?php echo ($_SESSION['theme']['form_table_label_background_color']['text'] != '') ? $_SESSION['theme']['form_table_label_background_color']['text'] : '#e5e9f0'; ?>;
 		padding: <?php echo ($_SESSION['theme']['form_table_heading_padding']['text'] != '') ? $_SESSION['theme']['form_table_heading_padding']['text'] : '8px 8px 4px 8px'; ?>;
-		text-align: left;
+		text-align: right;
 		color: <?php echo ($_SESSION['theme']['form_table_label_text_color']['text'] != '') ? $_SESSION['theme']['form_table_label_text_color']['text'] : '#000000'; ?>;
 		font-family: <?php echo ($_SESSION['theme']['form_table_label_text_font']['text'] != '') ? $_SESSION['theme']['form_table_label_text_font']['text'] : 'Arial'; ?>;
 		font-size: <?php echo ($_SESSION['theme']['form_table_label_text_size']['text'] != '') ? $_SESSION['theme']['form_table_label_text_size']['text'] : '9pt'; ?>;
@@ -1543,7 +1543,7 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 		<?php unset($br); ?>
 		border-bottom: 3px solid <?php echo ($_SESSION['theme']['form_table_label_required_border_color']['text'] != '') ? $_SESSION['theme']['form_table_label_required_border_color']['text'] : '#cbcfd5'; ?>;
 		padding: <?php echo ($_SESSION['theme']['form_table_heading_padding']['text'] != '') ? $_SESSION['theme']['form_table_heading_padding']['text'] : '8px 8px 4px 8px'; ?>;
-		text-align: left;
+		text-align: right;
 		color: <?php echo ($_SESSION['theme']['form_table_label_required_text_color']['text'] != '') ? $_SESSION['theme']['form_table_label_required_text_color']['text'] : '#000000'; ?>;
 		font-family: <?php echo ($_SESSION['theme']['form_table_label_text_font']['text'] != '') ? $_SESSION['theme']['form_table_label_text_font']['text'] : 'Arial'; ?>;
 		font-size: <?php echo ($_SESSION['theme']['form_table_label_text_size']['text'] != '') ? $_SESSION['theme']['form_table_label_text_size']['text'] : '9pt'; ?>;
@@ -1574,7 +1574,7 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 		<?php unset($br); ?>
 		border-bottom: 1px solid <?php echo ($_SESSION['theme']['form_table_field_border_color']['text'] != '') ? $_SESSION['theme']['form_table_field_border_color']['text'] : '#e5e9f0'; ?>;
 		padding: <?php echo ($_SESSION['theme']['form_table_row_padding']['text'] != '') ? $_SESSION['theme']['form_table_row_padding']['text'] : ($total_vertical_padding/2).'px 0'; ?>;
-		text-align: left;
+		text-align: right;
 		vertical-align: middle;
 		color: <?php echo ($_SESSION['theme']['form_table_field_text_color']['text'] != '') ? $_SESSION['theme']['form_table_field_text_color']['text'] : '#666666'; ?>;
 		font-family: <?php echo ($_SESSION['theme']['form_table_field_text_font']['text'] != '') ? $_SESSION['theme']['form_table_field_text_font']['text'] : 'Arial'; ?>;
@@ -1587,7 +1587,7 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 		color: <?php echo ($_SESSION['theme']['table_row_text_color']['text'] != '') ? $_SESSION['theme']['table_row_text_color']['text'] : '#000'; ?>;
 		font-family: <?php echo ($_SESSION['theme']['table_row_text_font']['text'] != '') ? $_SESSION['theme']['table_row_text_font']['text'] : 'arial'; ?>;
 		font-size: <?php echo ($_SESSION['theme']['table_row_text_size']['text'] != '') ? $_SESSION['theme']['table_row_text_size']['text'] : '12px'; ?>;
-		text-align: left;
+		text-align: right;
 		padding: 4px 7px;
 		}
 
@@ -1597,7 +1597,7 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 		color: <?php echo ($_SESSION['theme']['table_row_text_color']['text'] != '') ? $_SESSION['theme']['table_row_text_color']['text'] : '#000'; ?>;
 		font-family: <?php echo ($_SESSION['theme']['table_row_text_font']['text'] != '') ? $_SESSION['theme']['table_row_text_font']['text'] : 'arial'; ?>;
 		font-size: <?php echo ($_SESSION['theme']['table_row_text_size']['text'] != '') ? $_SESSION['theme']['table_row_text_size']['text'] : '12px'; ?>;
-		text-align: left;
+		text-align: right;
 		padding: 4px 7px;
 		}
 
@@ -1613,7 +1613,7 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 		color: <?php echo ($_SESSION['theme']['table_row_text_color']['text'] != '') ? $_SESSION['theme']['table_row_text_color']['text'] : '#000'; ?>;
 		font-family: <?php echo ($_SESSION['theme']['table_row_text_font']['text'] != '') ? $_SESSION['theme']['table_row_text_font']['text'] : 'arial'; ?>;
 		font-size: <?php echo ($_SESSION['theme']['table_row_text_size']['text'] != '') ? $_SESSION['theme']['table_row_text_size']['text'] : '12px'; ?>;
-		text-align: left;
+		text-align: right;
 		padding: 4px 7px;
 		}
 
@@ -1723,7 +1723,7 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 		}
 
 	td.op_ext_info {
-		text-align: left;
+		text-align: right;
 		vertical-align: top;
 		font-family: arial;
 		font-size: 10px;
@@ -1991,7 +1991,7 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 		}
 
 	th.hud_heading {
-		text-align: left;
+		text-align: right;
 		font-size: <?php echo ($_SESSION['theme']['dashboard_detail_heading_text_size']['text'] != '') ? $_SESSION['theme']['dashboard_detail_heading_text_size']['text'] : '11px'; ?>;
 		font-family: <?php echo ($_SESSION['theme']['table_heading_text_font']['text'] != '') ? $_SESSION['theme']['table_heading_text_font']['text'] : 'arial'; ?>
 		color: <?php echo ($_SESSION['theme']['table_heading_text_color']['text'] != '') ? $_SESSION['theme']['table_heading_text_color']['text'] : '#3164ad'; ?>;
@@ -2000,7 +2000,7 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 	td.hud_text {
 		font-size: <?php echo ($_SESSION['theme']['dashboard_detail_row_text_size']['text'] != '') ? $_SESSION['theme']['dashboard_detail_row_text_size']['text'] : '11px'; ?>;
 		color: <?php echo ($_SESSION['theme']['table_row_text_color']['text'] != '') ? $_SESSION['theme']['table_row_text_color']['text'] : '#000'; ?>;
-		text-align: left;
+		text-align: right;
 		vertical-align: middle;
 		}
 
@@ -2148,7 +2148,7 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 		<?php unset($br); ?>
 		border-bottom: 1px solid <?php echo ($_SESSION['theme']['form_table_field_border_color']['text'] != '') ? $_SESSION['theme']['form_table_field_border_color']['text'] : '#e5e9f0'; ?>;
 		padding: <?php echo ($_SESSION['theme']['form_table_field_padding']['text'] != '') ? $_SESSION['theme']['form_table_field_padding']['text'] : '6px'; ?>;
-		text-align: left;
+		text-align: right;
 		vertical-align: middle;
 		color: <?php echo ($_SESSION['theme']['form_table_field_text_color']['text'] != '') ? $_SESSION['theme']['form_table_field_text_color']['text'] : '#666666'; ?>;
 		font-family: <?php echo ($_SESSION['theme']['form_table_field_text_font']['text'] != '') ? $_SESSION['theme']['form_table_field_text_font']['text'] : 'Arial'; ?>;
@@ -2234,7 +2234,7 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 
 	.list-header > th {
 		padding: <?php echo ($_SESSION['theme']['table_heading_padding']['text'] != '') ? $_SESSION['theme']['table_heading_padding']['text'] : '4px 7px'; ?>;
-		text-align: left;
+		text-align: right;
 		color: <?php echo ($_SESSION['theme']['table_heading_text_color']['text'] != '') ? $_SESSION['theme']['table_heading_text_color']['text'] : '#3164ad'; ?>;
 		font-size: <?php echo ($_SESSION['theme']['table_heading_text_size']['text'] != '') ? $_SESSION['theme']['table_heading_text_size']['text'] : '12px'; ?>;
 		font-family: <?php echo ($_SESSION['theme']['table_heading_text_font']['text'] != '') ? $_SESSION['theme']['table_heading_text_font']['text'] : 'arial'; ?>;
@@ -2259,7 +2259,7 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 		color: <?php echo ($_SESSION['theme']['table_row_text_color']['text'] != '') ? $_SESSION['theme']['table_row_text_color']['text'] : '#000'; ?>;
 		font-family: <?php echo ($_SESSION['theme']['table_row_text_font']['text'] != '') ? $_SESSION['theme']['table_row_text_font']['text'] : 'arial'; ?>;
 		font-size: <?php echo ($_SESSION['theme']['table_row_text_size']['text'] != '') ? $_SESSION['theme']['table_row_text_size']['text'] : '12px'; ?>;
-		text-align: left;
+		text-align: right;
 		vertical-align: top;
 		}
 
