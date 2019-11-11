@@ -948,7 +948,6 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 	?>
 
 	#main_content {
-        direction: rtl;
 		display: inline-block;
 		width: 100%;
 		<?php

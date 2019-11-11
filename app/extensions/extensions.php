@@ -123,11 +123,11 @@
 //show the content
 	echo "<table width=\"100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n";
 	echo "  <tr>\n";
-	echo "	<td align='left' width='100%'>\n";
+	echo "	<td align='right' width='100%'>\n";
 	echo "		<b>".$text['header-extensions']." (".$total_extensions.")</b><br>\n";
 	echo "	</td>\n";
 	echo "		<form method='get' action=''>\n";
-	echo "			<td style='vertical-align: top; text-align: right; white-space: nowrap;'>\n";
+	echo "			<td style='vertical-align: top; text-align: left; white-space: nowrap;'>\n";
 	if (permission_exists('extension_all')) {
 		if ($_GET['show'] == 'all') {
 			echo "	<input type='hidden' name='show' value='all'>";
