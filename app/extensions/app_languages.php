@@ -1563,6 +1563,7 @@ $text['header-extension-add']['ro-ro'] = "";
 $text['header-extension-add']['ru-ru'] = "Добавить Внутренний Номер";
 $text['header-extension-add']['sv-se'] = "Lägg Till Anknytning";
 $text['header-extension-add']['uk-ua'] = "Додавання розширення";
+$text['header-extension-add']['fa'] = "افزودن داخلی";
 
 $text['description-voicemail_password']['en-us'] = "Enter the numeric voicemail  password here.";
 $text['description-voicemail_password']['ar-eg'] = "";
