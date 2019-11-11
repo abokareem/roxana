@@ -20,6 +20,7 @@ $text['title-extensions']['ro-ro'] = "";
 $text['title-extensions']['ru-ru'] = "";
 $text['title-extensions']['sv-se'] = "Anknytningar";
 $text['title-extensions']['uk-ua'] = "Розширення";
+$text['title-extensions']['fa'] = "داخلی ها";
 
 $text['title-extension-edit']['en-us'] = "Extension";
 $text['title-extension-edit']['ar-eg'] = "رقم داخلي";
@@ -40,6 +41,7 @@ $text['title-extension-edit']['ro-ro'] = "";
 $text['title-extension-edit']['ru-ru'] = "Внутренний Номер";
 $text['title-extension-edit']['sv-se'] = "Anknytning";
 $text['title-extension-edit']['uk-ua'] = "Розширення";
+$text['title-extension-edit']['fa'] = "داخلی";
 
 $text['title-extension-add']['en-us'] = "Extension Add";
 $text['title-extension-add']['ar-eg'] = "إضافة رقم داخلي";
@@ -60,6 +62,7 @@ $text['title-extension-add']['ro-ro'] = "";
 $text['title-extension-add']['ru-ru'] = "Добавить Внутренний Номер";
 $text['title-extension-add']['sv-se'] = "Lägg Till Anknytning";
 $text['title-extension-add']['uk-ua'] = "Додавання розширення";
+$text['title-extension-add']['fa'] = "افزودن داخلی";
 
 $text['title-call_groups']['en-us'] = "Call Groups";
 $text['title-call_groups']['ar-eg'] = "";

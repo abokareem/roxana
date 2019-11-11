@@ -27,6 +27,7 @@
 		$apps[$x]['description']['ru-ru'] = "";
 		$apps[$x]['description']['sv-se'] = "";
 		$apps[$x]['description']['uk-ua'] = "";
+        $apps[$x]['description']['fa'] = "ایجاد داخلی ها";
 
 	//destination details
 		$y=0;
