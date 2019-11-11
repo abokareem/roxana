@@ -2143,6 +2143,7 @@ $text['description-extensions']['ro-ro'] = "";
 $text['description-extensions']['ru-ru'] = "Используйте это для настройки Внутренних Номеров SIP.";
 $text['description-extensions']['sv-se'] = "Använd detta för att konfigurera dina SIP anknytningar.";
 $text['description-extensions']['uk-ua'] = "";
+$text['description-extensions']['en-us'] = "در این صفحه می توانید داخلی های خود را مدیریت نمایید.";
 
 $text['description-extension']['en-us'] = "Enter the alphanumeric extension. The default configuration allows 2 - 15 digit extensions.";
 $text['description-extension']['ar-eg'] = "";
