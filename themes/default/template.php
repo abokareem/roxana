@@ -840,7 +840,7 @@ if (!$default_login) {
 							echo "	<div style='height: 100px;'></div>\n";
 						}
 				echo "</div>\n";
-				echo "<div id='content_container' style='padding: 0; width: calc(100% - ".(is_numeric($_SESSION['theme']['menu_side_width_contracted']['text']) ? $_SESSION['theme']['menu_side_width_contracted']['text'] : '55')."px); float: left; padding-top: 0px; text-align: center;'>\n";
+				echo "<div id='content_container' style='padding: 10; width: calc(100% - ".(is_numeric($_SESSION['theme']['menu_side_width_contracted']['text']) ? $_SESSION['theme']['menu_side_width_contracted']['text'] : '55')."px); float: left; padding-top: 0px; text-align: center;'>\n";
 				echo "	<div id='content_header'>\n";
 				//header: left
 					echo "<div class='float-left'>\n";
