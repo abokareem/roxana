@@ -871,12 +871,12 @@
 	echo "<table width='100%' border='0' cellpdding='0' cellspacing='0'>\n";
 	echo "<tr>\n";
 	if ($action == "add") {
-		echo "<td width='30%' nowrap='nowrap' align='left' valign='top'><b>".$text['header-extension-add']."</b></td>\n";
+		echo "<td width='30%' nowrap='nowrap' align='right' valign='top'><b>".$text['header-extension-add']."</b></td>\n";
 	}
 	if ($action == "update") {
-		echo "<td width='30%' nowrap='nowrap' align='left' valign='top'><b>".$text['header-extension-edit']."</b></td>\n";
+		echo "<td width='30%' nowrap='nowrap' align='right' valign='top'><b>".$text['header-extension-edit']."</b></td>\n";
 	}
-	echo "<td width='70%' align='right' valign='top'>\n";
+	echo "<td width='70%' align='left' valign='top'>\n";
 	echo "	<input type='button' class='btn' alt='".$text['button-back']."' onclick=\"window.location='extensions.php".(is_numeric($page) ? '?page='.$page : null)."'\" value='".$text['button-back']."'>\n";
 	if ($action == 'update' && permission_exists('xml_cdr_view')) {
 		echo "	<input type='button' class='btn' alt='".$text['button-cdr']."' onclick=\"window.location='../xml_cdr/xml_cdr.php?extension_uuid=".urlencode($extension_uuid)."';\" value='".$text['button-cdr']."'>\n";
