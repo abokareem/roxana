@@ -223,6 +223,7 @@ $text['label-voicemail_password']['ro-ro'] = "";
 $text['label-voicemail_password']['ru-ru'] = "Пароль Голосовой Почты";
 $text['label-voicemail_password']['sv-se'] = "Röstbrevlåda Lösenord";
 $text['label-voicemail_password']['uk-ua'] = "Пароль на голосову пошту";
+$text['label-voicemail_password']['fa'] = "پسورد صندوق پستی";
 
 $text['label-voicemail_mail_to']['en-us'] = "Voicemail Mail To";
 $text['label-voicemail_mail_to']['ar-eg'] = "";
