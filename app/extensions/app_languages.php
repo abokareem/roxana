@@ -1523,6 +1523,7 @@ $text['header-extensions']['ro-ro'] = "";
 $text['header-extensions']['ru-ru'] = "Внутренние Номера";
 $text['header-extensions']['sv-se'] = "Anknytningar";
 $text['header-extensions']['uk-ua'] = "Розширення";
+$text['header-extensions']['fa'] = "لیست داخلی ها";
 
 $text['header-extension-edit']['en-us'] = "Extension";
 $text['header-extension-edit']['ar-eg'] = "رقم داخلي";
@@ -1543,6 +1544,7 @@ $text['header-extension-edit']['ro-ro'] = "";
 $text['header-extension-edit']['ru-ru'] = "Внутренний Номер";
 $text['header-extension-edit']['sv-se'] = "Anknytning";
 $text['header-extension-edit']['uk-ua'] = "Розширення";
+$text['header-extension-edit']['fa'] = "داخلی";
 
 $text['header-extension-add']['en-us'] = "Extension Add";
 $text['header-extension-add']['ar-eg'] = "إضافة رقم داخلي";
@@ -1584,6 +1586,7 @@ $text['description-voicemail_password']['ro-ro'] = "";
 $text['description-voicemail_password']['ru-ru'] = "Введите номер Голосовой Почты и Пароль к ней.";
 $text['description-voicemail_password']['sv-se'] = "Ange det numeriska röstbrevlåde-lösenordet här.";
 $text['description-voicemail_password']['uk-ua'] = "";
+$text['description-voicemail_password']['fa'] = "رمز عبور عددی صندوق پستی";
 
 $text['description-voicemail_mail_to']['en-us'] = "Enter the email address to send voicemail to (optional).";
 $text['description-voicemail_mail_to']['ar-eg'] = "";
@@ -1604,6 +1607,7 @@ $text['description-voicemail_mail_to']['ro-ro'] = "";
 $text['description-voicemail_mail_to']['ru-ru'] = "Введите адрес электронной почты, чтобы отправить голосовую почту (опционально).";
 $text['description-voicemail_mail_to']['sv-se'] = "Ange E-post adressen för röstbrevlådan (valfritt).";
 $text['description-voicemail_mail_to']['uk-ua'] = "";
+$text['description-voicemail_mail_to']['fa'] = "ایمیل اطلاع رسانی صندوق پستی را اینجا وارد نمایید. (اختیاری)";
 
 $text['description-voicemail_local_after_email']['en-us'] = "Choose whether to keep the voicemail in the system after sending the email notification.";
 $text['description-voicemail_local_after_email']['ar-eg'] = "";
@@ -1624,6 +1628,7 @@ $text['description-voicemail_local_after_email']['ro-ro'] = "";
 $text['description-voicemail_local_after_email']['ru-ru'] = "Выберите, следует ли сохранять голосовую почту в системе, после отправки сообщения по электронной почте.";
 $text['description-voicemail_local_after_email']['sv-se'] = "Välj om du vill behålla röstmeddelande i systemet efter att e-postmeddelandet skickats.";
 $text['description-voicemail_local_after_email']['uk-ua'] = "";
+$text['description-voicemail_local_after_email']['fa'] = "Choose whether to keep the voicemail in the system after sending the email notification.";
 
 $text['description-voicemail_file']['en-us'] = "Select a listening option to include with the email notification.";
 $text['description-voicemail_file']['ar-eg'] = "";
@@ -1644,6 +1649,7 @@ $text['description-voicemail_file']['ro-ro'] = "";
 $text['description-voicemail_file']['ru-ru'] = "Выберите вариант прослушивания, который нужно включить в сообщение отправленное по электронной почте.";
 $text['description-voicemail_file']['sv-se'] = "Välj ett alternativ för avlyssning i e-postmeddelandet.";
 $text['description-voicemail_file']['uk-ua'] = "";
+$text['description-voicemail_file']['fa'] = "انتخاب گزینه ی گوش دادن برای جا دادن در هشدار ایمیل";
 
 $text['description-voicemail_enabled']['en-us'] = "Enable/disable voicemail for this extension.";
 $text['description-voicemail_enabled']['ar-eg'] = "";
@@ -1664,6 +1670,7 @@ $text['description-voicemail_enabled']['ro-ro'] = "";
 $text['description-voicemail_enabled']['ru-ru'] = "Включиь / Выключить Голосовую Почту для Внутреннего Номера.";
 $text['description-voicemail_enabled']['sv-se'] = "Aktivera/Inaktivera röstbrevlåda för denna anknytning.";
 $text['description-voicemail_enabled']['uk-ua'] = "";
+$text['description-voicemail_enabled']['fa'] = "فعالسازی/غیرفعالسازی صندوق پستی برای این داخلی";
 
 $text['description-user_record']['en-us'] = "Choose whether to record local, inbound, outbound, or all.";
 $text['description-user_record']['ar-eg'] = "";
@@ -1684,6 +1691,7 @@ $text['description-user_record']['ro-ro'] = "";
 $text['description-user_record']['ru-ru'] = "Укажите, следует ли записывать локальные, входящие, исходящие или все.";
 $text['description-user_record']['sv-se'] = "Välj om lokala, inkommande, utgående eller alla samtal skall spelas in.";
 $text['description-user_record']['uk-ua'] = "";
+$text['description-user_record']['fa'] = "انتخاب گزین های ضبط کردن ، تماس های داخالی/خارجی/همه";
 
 $text['description-user_list']['en-us'] = "Assign the users that are assigned to this extension. ";
 $text['description-user_list']['ar-eg'] = "";
@@ -1704,6 +1712,7 @@ $text['description-user_list']['ro-ro'] = "";
 $text['description-user_list']['ru-ru'] = "Назначьте пользователей, данному Внутреннему Номеру. ";
 $text['description-user_list']['sv-se'] = "Tilldela användare till denna anknytning.";
 $text['description-user_list']['uk-ua'] = "";
+$text['description-user_list']['fa'] = "تخصیص کاربران این داخلی";
 
 $text['description-user_context']['en-us'] = "Enter the user context here.";
 $text['description-user_context']['ar-eg'] = "";
@@ -1724,6 +1733,7 @@ $text['description-user_context']['ro-ro'] = "";
 $text['description-user_context']['ru-ru'] = "Введите контекст для данного Пользователя.";
 $text['description-user_context']['sv-se'] = "Ange 'user context' här.";
 $text['description-user_context']['uk-ua'] = "";
+$text['description-user_context']['fa'] = "وارد کردن کانتکست کاربر";
 
 $text['description-toll_allow']['en-us'] = "Enter the toll allow value here.  (Examples: domestic,international,local)";
 $text['description-toll_allow']['ar-eg'] = "";
@@ -1744,6 +1754,7 @@ $text['description-toll_allow']['ro-ro'] = "";
 $text['description-toll_allow']['ru-ru'] = "Введите здесь доступные значения. (Примеры: domestic,international,local)";
 $text['description-toll_allow']['sv-se'] = "Ange 'toll allow' värde här. (Exempel: domestic,international,local)";
 $text['description-toll_allow']['uk-ua'] = "";
+$text['description-toll_allow']['fa'] = "وارد کردن toll";
 
 $text['description-sip_force_expires']['en-us'] = "To prevent stale registrations SIP Force expires can override the client expire.";
 $text['description-sip_force_expires']['ar-eg'] = "";
@@ -2144,7 +2155,7 @@ $text['description-extensions']['ro-ro'] = "";
 $text['description-extensions']['ru-ru'] = "Используйте это для настройки Внутренних Номеров SIP.";
 $text['description-extensions']['sv-se'] = "Använd detta för att konfigurera dina SIP anknytningar.";
 $text['description-extensions']['uk-ua'] = "";
-$text['description-extensions']['en-us'] = "در این صفحه می توانید داخلی های خود را مدیریت نمایید.";
+$text['description-extensions']['fa'] = "در این صفحه می توانید داخلی های خود را مدیریت نمایید.";
 
 $text['description-extension']['en-us'] = "Enter the alphanumeric extension. The default configuration allows 2 - 15 digit extensions.";
 $text['description-extension']['ar-eg'] = "";
