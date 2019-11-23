@@ -175,8 +175,6 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
         url('fonts/Yekan.ttf') format('truetype'),
         url('fonts/Yekan.otf') format('opentype'),
         url('fonts/Yekan.svg#Yekan') format('svg');
-        font-weight: normal;
-        font-style: normal;
         }
 
 	html {
