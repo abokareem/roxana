@@ -166,6 +166,19 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 	}
 ?>
 
+    @font-face {
+        font-family: 'Yekan';
+        src: url('fonts/Yekan.eot');
+        src: url('fonts/Yekan.eot?#iefix') format("embedded-opentype"),
+        url('fonts/Yekan.woff2') format('woff2'),
+        url('fonts/Yekan.woff') format('woff'),
+        url('fonts/Yekan.ttf') format('truetype'),
+        url('fonts/Yekan.otf') format('opentype'),
+        url('fonts/Yekan.svg#Yekan') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        }
+
 	html {
         direction: rtl;
 		height: 100%;
@@ -237,7 +250,7 @@ $default_login = ($_REQUEST['login'] == 'default') ? true : false;
 
 	.footer {
 		font-size: 11px;
-		font-family: arial;
+		font-family: 'Yekan';
 		line-height: 14px;
 		color: <?php echo ($_SESSION['theme']['footer_color']['text'] != '') ? $_SESSION['theme']['footer_color']['text'] : 'rgba(255,255,255,0.3)'; ?>;
 		white-space: nowrap;
