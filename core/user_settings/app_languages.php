@@ -680,6 +680,7 @@ $text['label-system_counts']['ro-ro'] = "Numără sistem";
 $text['label-system_counts']['ru-ru'] = "Системные показатели";
 $text['label-system_counts']['sv-se'] = "System Counts";
 $text['label-system_counts']['uk-ua'] = "система зараховує";
+$text['label-system_counts']['fa'] = "آمار سیستم";
 
 $text['label-switch_uptime']['en-us'] = "Switch Uptime";
 $text['label-switch_uptime']['ar-eg'] = "";
