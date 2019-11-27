@@ -83,6 +83,7 @@ $text['title-call_groups']['ro-ro'] = "";
 $text['title-call_groups']['ru-ru'] = "Группы Вызовов";
 $text['title-call_groups']['sv-se'] = "Ring Grupp";
 $text['title-call_groups']['uk-ua'] = "";
+$text['title-call_groups']['fa'] = "گروه تماس ها";
 
 $text['option-voicemail_file_listen']['en-us'] = "Listen Link (Login Required)";
 $text['option-voicemail_file_listen']['ar-eg'] = "";
@@ -103,6 +104,7 @@ $text['option-voicemail_file_listen']['ro-ro'] = "";
 $text['option-voicemail_file_listen']['ru-ru'] = "Ссылка для прослушивания (требуется вход в систему)";
 $text['option-voicemail_file_listen']['sv-se'] = "Lyssna-länk (Måste Logga In)";
 $text['option-voicemail_file_listen']['uk-ua'] = "Посилання на прослуховування (Входити обов’язково)";
+$text['option-voicemail_file_listen']['fa'] = "لینک شنیدن";
 
 $text['option-voicemail_file_link']['en-us'] = "Download Link (No Login Required)";
 $text['option-voicemail_file_link']['ar-eg'] = "";
@@ -123,6 +125,7 @@ $text['option-voicemail_file_link']['ro-ro'] = "";
 $text['option-voicemail_file_link']['ru-ru'] = "Ссылка для скачивания (не требуется вход в систему)";
 $text['option-voicemail_file_link']['sv-se'] = "Nedladdnings-länk (Ingen Inloggning Krävs)";
 $text['option-voicemail_file_link']['uk-ua'] = "Посилання на завантаження (Входити не обов’язково)";
+$text['option-voicemail_file_link']['fa'] = "لینک دانلود";
 
 $text['option-voicemail_file_attach']['en-us'] = "Audio File Attachment";
 $text['option-voicemail_file_attach']['ar-eg'] = "إرفاق ملف صوتي";
@@ -143,6 +146,7 @@ $text['option-voicemail_file_attach']['ro-ro'] = "";
 $text['option-voicemail_file_attach']['ru-ru'] = "Прикрепить Аудиофайл";
 $text['option-voicemail_file_attach']['sv-se'] = "Ljudfil Bifogad";
 $text['option-voicemail_file_attach']['uk-ua'] = "Приєднати аудіофайл";
+$text['option-voicemail_file_attach']['fa'] = "پیوست فایل صوتی";
 
 $text['message-number_alias']['en-us'] = "Enter the new Number Alias...";
 $text['message-number_alias']['ar-eg'] = "";
@@ -163,6 +167,7 @@ $text['message-number_alias']['ro-ro'] = "";
 $text['message-number_alias']['ru-ru'] = "Введите новый альтернативный номер ...";
 $text['message-number_alias']['sv-se'] = "Fyll i det nya Nummer Alias...";
 $text['message-number_alias']['uk-ua'] = "Введіть новий псевдонім номера...";
+$text['message-number_alias']['fa'] = "وارد کردن نام مستعار برای این شماره";
 
 $text['message-maximum_extensions']['en-us'] = "Maximum Extensions:";
 $text['message-maximum_extensions']['ar-eg'] = "الحد الأقصي للأرقام الداخلية :";
@@ -183,6 +188,7 @@ $text['message-maximum_extensions']['ro-ro'] = "";
 $text['message-maximum_extensions']['ru-ru'] = "Максимальное количество Внутренних Номеров";
 $text['message-maximum_extensions']['sv-se'] = "Maximum Antal Anknytningar:";
 $text['message-maximum_extensions']['uk-ua'] = "Максимальна кількість розширень";
+$text['message-maximum_extensions']['fa'] = "حداکثر داخلی ها :";
 
 $text['message-extension']['en-us'] = "Enter the new Extension...";
 $text['message-extension']['ar-eg'] = "أدخل الرقم الداخلي الجديد";
@@ -203,6 +209,7 @@ $text['message-extension']['ro-ro'] = "";
 $text['message-extension']['ru-ru'] = "Введите новый Внутренний Номер...";
 $text['message-extension']['sv-se'] = "Fyll i den nya Anknytningen...";
 $text['message-extension']['uk-ua'] = "Введіть нове розширення";
+$text['message-extension']['fa'] = "داخلی جدید را وارد کنید...";
 
 $text['label-voicemail_password']['en-us'] = "Voicemail Password";
 $text['label-voicemail_password']['ar-eg'] = "كلمة السر للبريد الصوتي";
@@ -244,6 +251,7 @@ $text['label-voicemail_mail_to']['ro-ro'] = "";
 $text['label-voicemail_mail_to']['ru-ru'] = "Голосовая почта на адрес Электронной Почты";
 $text['label-voicemail_mail_to']['sv-se'] = "Röstbrevlåda E-post Till";
 $text['label-voicemail_mail_to']['uk-ua'] = "Надсилати голосову пошту на E-Mail";
+$text['label-voicemail_mail_to']['fa'] = "صندوق صوتی ایمیل شود به ";
 
 $text['label-voicemail_local_after_email']['en-us'] = "Voicemail Keep Local";
 $text['label-voicemail_local_after_email']['ar-eg'] = "";
@@ -264,6 +272,7 @@ $text['label-voicemail_local_after_email']['ro-ro'] = "";
 $text['label-voicemail_local_after_email']['ru-ru'] = "Сообщение хранится локально после отправки Электронной Почтой";
 $text['label-voicemail_local_after_email']['sv-se'] = "Röstbrevlåda Behåll Lokalt";
 $text['label-voicemail_local_after_email']['uk-ua'] = "Залишати голосову пошту локально";
+$text['label-voicemail_local_after_email']['fa'] = "نگهداری پیغام صوتی بعد از ایمیل شدن";
 
 $text['label-voicemail_file']['en-us'] = "Voicemail File";
 $text['label-voicemail_file']['ar-eg'] = "";
@@ -284,6 +293,7 @@ $text['label-voicemail_file']['ro-ro'] = "";
 $text['label-voicemail_file']['ru-ru'] = "Файл Голосовой Почты";
 $text['label-voicemail_file']['sv-se'] = "Röstbrevlåda Fil";
 $text['label-voicemail_file']['uk-ua'] = "Файл голосової пошти";
+$text['label-voicemail_file']['fa'] = "فایل صندوق صوتی";
 
 $text['label-voicemail_enabled']['en-us'] = "Voicemail Enabled";
 $text['label-voicemail_enabled']['ar-eg'] = "";
@@ -304,6 +314,7 @@ $text['label-voicemail_enabled']['ro-ro'] = "";
 $text['label-voicemail_enabled']['ru-ru'] = "Голосовая Почта Включена";
 $text['label-voicemail_enabled']['sv-se'] = "Röstbrevlåda Aktiverad";
 $text['label-voicemail_enabled']['uk-ua'] = "Голосову пошту включено";
+$text['label-voicemail_enabled']['fa'] = "فعال بودن صندوق صوتی";
 
 $text['label-user_record_outbound']['en-us'] = "Outbound";
 $text['label-user_record_outbound']['ar-eg'] = "صادر";
@@ -324,6 +335,7 @@ $text['label-user_record_outbound']['ro-ro'] = "";
 $text['label-user_record_outbound']['ru-ru'] = "Исходящая";
 $text['label-user_record_outbound']['sv-se'] = "Utgående";
 $text['label-user_record_outbound']['uk-ua'] = "Вихідний";
+$text['label-user_record_outbound']['fa'] = "خروجی";
 
 $text['label-user_record_none']['en-us'] = "Disabled";
 $text['label-user_record_none']['ar-eg'] = "معطل";
@@ -344,6 +356,7 @@ $text['label-user_record_none']['ro-ro'] = "";
 $text['label-user_record_none']['ru-ru'] = "Выключено";
 $text['label-user_record_none']['sv-se'] = "Inaktiverad";
 $text['label-user_record_none']['uk-ua'] = "Відключено";
+$text['label-user_record_none']['fa'] = "غیرفعال";
 
 $text['label-user_record_local']['en-us'] = "Local";
 $text['label-user_record_local']['ar-eg'] = "محلي";
@@ -364,6 +377,7 @@ $text['label-user_record_local']['ro-ro'] = "";
 $text['label-user_record_local']['ru-ru'] = "Локальный";
 $text['label-user_record_local']['sv-se'] = "Lokal";
 $text['label-user_record_local']['uk-ua'] = "Локальний";
+$text['label-user_record_local']['fa'] = "محلی";
 
 $text['label-user_record_inbound']['en-us'] = "Inbound";
 $text['label-user_record_inbound']['ar-eg'] = "وارد";
@@ -384,6 +398,7 @@ $text['label-user_record_inbound']['ro-ro'] = "";
 $text['label-user_record_inbound']['ru-ru'] = "Входяший";
 $text['label-user_record_inbound']['sv-se'] = "Inkommande";
 $text['label-user_record_inbound']['uk-ua'] = "Вхідний";
+$text['label-user_record_inbound']['fa'] = "ورودی";
 
 $text['label-user_record_all']['en-us'] = "All";
 $text['label-user_record_all']['ar-eg'] = "الكل";
@@ -404,6 +419,7 @@ $text['label-user_record_all']['ro-ro'] = "";
 $text['label-user_record_all']['ru-ru'] = "Все";
 $text['label-user_record_all']['sv-se'] = "Allt";
 $text['label-user_record_all']['uk-ua'] = "Всі";
+$text['label-user_record_all']['fa'] = "همه";
 
 $text['label-user_record']['en-us'] = "Record";
 $text['label-user_record']['ar-eg'] = "تسجيل";
@@ -424,6 +440,7 @@ $text['label-user_record']['ro-ro'] = "";
 $text['label-user_record']['ru-ru'] = "Запись разговора";
 $text['label-user_record']['sv-se'] = "Spela In";
 $text['label-user_record']['uk-ua'] = "Запис розмов";
+$text['label-user_record']['fa'] = "ضبط";
 
 $text['label-users']['en-us'] = "Users";
 $text['label-users']['ar-eg'] = "قائمة المستخدم";
@@ -444,6 +461,7 @@ $text['label-users']['ro-ro'] = "";
 $text['label-users']['ru-ru'] = "Пользователи";
 $text['label-users']['sv-se'] = "Användar-lista";
 $text['label-users']['uk-ua'] = "Список користувачів";
+$text['label-users']['fa'] = "کاربران";
 
 $text['label-user_context']['en-us'] = "Context";
 $text['label-user_context']['ar-eg'] = "";
@@ -464,6 +482,7 @@ $text['label-user_context']['ro-ro'] = "";
 $text['label-user_context']['ru-ru'] = "Контекст";
 $text['label-user_context']['sv-se'] = "Sammanhang";
 $text['label-user_context']['uk-ua'] = "Контекст";
+$text['label-user_context']['fa'] = "متن نوشته";
 
 $text['label-url']['en-us'] = "URL";
 $text['label-url']['ar-eg'] = "";
@@ -484,6 +503,7 @@ $text['label-url']['ro-ro'] = "";
 $text['label-url']['ru-ru'] = "URL-адрес";
 $text['label-url']['sv-se'] = "URL";
 $text['label-url']['uk-ua'] = "URL";
+$text['label-url']['fa'] = "آدرس URL";
 
 $text['label-toll_allow']['en-us'] = "Toll Allow";
 $text['label-toll_allow']['ar-eg'] = "";
@@ -504,6 +524,7 @@ $text['label-toll_allow']['ro-ro'] = "";
 $text['label-toll_allow']['ru-ru'] = "Разрешить Платное Соединение";
 $text['label-toll_allow']['sv-se'] = "Toll Allow";
 $text['label-toll_allow']['uk-ua'] = "";
+$text['label-toll_allow']['fa'] = "اجازه ی عوارض";
 
 $text['label-text']['en-us'] = "Text";
 $text['label-text']['ar-eg'] = "نص";
@@ -524,6 +545,7 @@ $text['label-text']['ro-ro'] = "";
 $text['label-text']['ru-ru'] = "Текст";
 $text['label-text']['sv-se'] = "Text";
 $text['label-text']['uk-ua'] = "текст";
+$text['label-text']['fa'] = "متن";
 
 $text['label-sip_force_expires']['en-us'] = "SIP Force Expires";
 $text['label-sip_force_expires']['ar-eg'] = "";
@@ -544,6 +566,7 @@ $text['label-sip_force_expires']['ro-ro'] = "";
 $text['label-sip_force_expires']['ru-ru'] = "SIP Force Expires";
 $text['label-sip_force_expires']['sv-se'] = "SIP Force Expires";
 $text['label-sip_force_expires']['uk-ua'] = "";
+$text['label-sip_force_expires']['fa'] = "نیوری SIP منضی می شود";
 
 $text['label-sip_force_contact']['en-us'] = "SIP Force Contact";
 $text['label-sip_force_contact']['ar-eg'] = "";
@@ -564,6 +587,7 @@ $text['label-sip_force_contact']['ro-ro'] = "";
 $text['label-sip_force_contact']['ru-ru'] = "SIP Force Contact";
 $text['label-sip_force_contact']['sv-se'] = "SIP Force Contact";
 $text['label-sip_force_contact']['uk-ua'] = "";
+$text['label-sip_force_contact']['fa'] = "نیروی SIP مخاطب";
 
 $text['label-sip_bypass_media']['en-us'] = "SIP Bypass Media";
 $text['label-sip_bypass_media']['ar-eg'] = "";
@@ -584,6 +608,7 @@ $text['label-sip_bypass_media']['ro-ro'] = "";
 $text['label-sip_bypass_media']['ru-ru'] = "SIP Bypass Media";
 $text['label-sip_bypass_media']['sv-se'] = "SIP Bypass Media";
 $text['label-sip_bypass_media']['uk-ua'] = "";
+$text['label-sip_bypass_media']['fa'] = "مدیای بایپس SIP";
 
 $text['label-absolute_codec_string']['en-us'] = "Absolute Codec String";
 $text['label-absolute_codec_string']['ar-eg'] = "";
@@ -604,6 +629,7 @@ $text['label-absolute_codec_string']['ro-ro'] = "";
 $text['label-absolute_codec_string']['ru-ru'] = "Absolute Codec String";
 $text['label-absolute_codec_string']['sv-se'] = "";
 $text['label-absolute_codec_string']['uk-ua'] = "";
+$text['label-absolute_codec_string']['fa'] = "رشته کدک قطعی";
 
 $text['label-force_ping']['en-us'] = "Force ping";
 $text['label-force_ping']['ar-eg'] = "";
@@ -624,6 +650,7 @@ $text['label-force_ping']['ro-ro'] = "";
 $text['label-force_ping']['ru-ru'] = "Force ping";
 $text['label-force_ping']['sv-se'] = "Force ping";
 $text['label-force_ping']['uk-ua'] = "";
+$text['label-force_ping']['fa'] = "پینگ اجباری";
 
 $text['label-rewrite_tls_contact_port']['en-us'] = "Rewrite TLS Contact Port";
 $text['label-rewrite_tls_contact_port']['ar-eg'] = "";
@@ -644,6 +671,7 @@ $text['label-rewrite_tls_contact_port']['ro-ro'] = "";
 $text['label-rewrite_tls_contact_port']['ru-ru'] = "Переписать Порт контактов TLS";
 $text['label-rewrite_tls_contact_port']['sv-se'] = "Rewrite TLS Contact Port";
 $text['label-rewrite_tls_contact_port']['uk-ua'] = "";
+$text['label-rewrite_tls_contact_port']['fa'] = "دوباره نوشتن TLS Contact Port";
 
 $text['label-rewrite_contact_ip_and_port_2']['en-us'] = "Rewrite Contact IP and Port 2.0";
 $text['label-rewrite_contact_ip_and_port_2']['ar-eg'] = "";
@@ -664,6 +692,7 @@ $text['label-rewrite_contact_ip_and_port_2']['ro-ro'] = "";
 $text['label-rewrite_contact_ip_and_port_2']['ru-ru'] = "Переписать IP-адрес и порт 2.0";
 $text['label-rewrite_contact_ip_and_port_2']['sv-se'] = "Rewrite Contact IP and Port 2.0";
 $text['label-rewrite_contact_ip_and_port_2']['uk-ua'] = "";
+$text['label-rewrite_contact_ip_and_port_2']['fa'] = "دوباره نوشتن Contact IP and Port 2.0";
 
 $text['label-rewrite_contact_ip_and_port']['en-us'] = "Rewrite Contact IP and Port";
 $text['label-rewrite_contact_ip_and_port']['ar-eg'] = "";
@@ -684,6 +713,7 @@ $text['label-rewrite_contact_ip_and_port']['ro-ro'] = "";
 $text['label-rewrite_contact_ip_and_port']['ru-ru'] = "Переписать IP-адрес и порт";
 $text['label-rewrite_contact_ip_and_port']['sv-se'] = "Rewrite Contact IP and Port";
 $text['label-rewrite_contact_ip_and_port']['uk-ua'] = "";
+$text['label-rewrite_contact_ip_and_port']['fa'] = "دوباره نوشتن Contact IP and Port";
 
 $text['label-range']['en-us'] = "Range";
 $text['label-range']['ar-eg'] = "";
@@ -704,6 +734,7 @@ $text['label-range']['ro-ro'] = "";
 $text['label-range']['ru-ru'] = "Диапазон";
 $text['label-range']['sv-se'] = "Intervall";
 $text['label-range']['uk-ua'] = "Діапазон";
+$text['label-range']['fa'] = "بازه";
 
 $text['label-proxy_media']['en-us'] = "Proxy Media";
 $text['label-proxy_media']['ar-eg'] = "";
@@ -724,6 +755,7 @@ $text['label-proxy_media']['ro-ro'] = "";
 $text['label-proxy_media']['ru-ru'] = "Proxy Media";
 $text['label-proxy_media']['sv-se'] = "Proxy Media";
 $text['label-proxy_media']['uk-ua'] = "";
+$text['label-proxy_media']['fa'] = "پروکسی مدیا";
 
 $text['label-provisioning']['en-us'] = "Device Provisioning";
 $text['label-provisioning']['ar-eg'] = "";
@@ -744,6 +776,7 @@ $text['label-provisioning']['ro-ro'] = "";
 $text['label-provisioning']['ru-ru'] = "Автоконфигурация устройств";
 $text['label-provisioning']['sv-se'] = "Enhet Provisionering";
 $text['label-provisioning']['uk-ua'] = "";
+$text['label-provisioning']['fa'] = "تامین دستگاه";
 
 $text['label-password']['en-us'] = "Password";
 $text['label-password']['ar-eg'] = "كلمة السر";
@@ -764,6 +797,7 @@ $text['label-password']['ro-ro'] = "";
 $text['label-password']['ru-ru'] = "Пароль";
 $text['label-password']['sv-se'] = "Lösenord";
 $text['label-password']['uk-ua'] = "Пароль";
+$text['label-password']['fa'] = "رمز عبور";
 
 $text['label-caller_id']['en-us'] = "Caller ID";
 $text['label-caller_id']['ar-eg'] = "";
@@ -784,6 +818,7 @@ $text['label-caller_id']['ro-ro'] = "";
 $text['label-caller_id']['ru-ru'] = "";
 $text['label-caller_id']['sv-se'] = "Nummerpresentation";
 $text['label-caller_id']['uk-ua'] = "";
+$text['label-caller_id']['fa'] = "کالر آی دی";
 
 $text['label-caller_id_number']['en-us'] = "Caller ID";
 $text['label-caller_id_number']['ar-eg'] = "";
@@ -804,6 +839,7 @@ $text['label-caller_id_number']['ro-ro'] = "";
 $text['label-caller_id_number']['ru-ru'] = "";
 $text['label-caller_id_number']['sv-se'] = "Nummerpresentation";
 $text['label-caller_id_number']['uk-ua'] = "";
+$text['label-caller_id_number']['fa'] = "کالر آی دی";
 
 $text['label-outbound_caller_id_number']['en-us'] = "Outbound Caller ID Number";
 $text['label-outbound_caller_id_number']['ar-eg'] = "";
@@ -824,6 +860,7 @@ $text['label-outbound_caller_id_number']['ro-ro'] = "";
 $text['label-outbound_caller_id_number']['ru-ru'] = "Идентификатор (Caller ID) номера вызывающего абонента";
 $text['label-outbound_caller_id_number']['sv-se'] = "Utgående Nummerpresentation";
 $text['label-outbound_caller_id_number']['uk-ua'] = "";
+$text['label-outbound_caller_id_number']['fa'] = "شماره کالر آی دی خروجی";
 
 $text['label-outbound_caller_id_name']['en-us'] = "Outbound Caller ID Name";
 $text['label-outbound_caller_id_name']['ar-eg'] = "";
@@ -844,6 +881,7 @@ $text['label-outbound_caller_id_name']['ro-ro'] = "";
 $text['label-outbound_caller_id_name']['ru-ru'] = "Идентификатор (Caller ID) имени вызывающего абонента";
 $text['label-outbound_caller_id_name']['sv-se'] = "Utgående Namnpresentation";
 $text['label-outbound_caller_id_name']['uk-ua'] = "";
+$text['label-outbound_caller_id_name']['fa'] = "نام کالر آی دی خروجی";
 
 $text['label-number_alias']['en-us'] = "Number Alias";
 $text['label-number_alias']['ar-eg'] = "";
@@ -864,6 +902,7 @@ $text['label-number_alias']['ro-ro'] = "";
 $text['label-number_alias']['ru-ru'] = "Псевдоним номера";
 $text['label-number_alias']['sv-se'] = "Nummer Alias";
 $text['label-number_alias']['uk-ua'] = "Псевдонім номера";
+$text['label-number_alias']['fa'] = "نام مستعار شماره";
 
 $text['label-nibble_account']['en-us'] = "Nibble Account";
 $text['label-nibble_account']['ar-eg'] = "";
